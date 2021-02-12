@@ -29,6 +29,7 @@
 .title{
     position: absolute;
 	top: 50%;
+    margin-left: 139px;
     font-size: 14px;
 }
 a{
@@ -140,6 +141,7 @@ a{
     width: 1088px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .div-box{
     display: flex;
