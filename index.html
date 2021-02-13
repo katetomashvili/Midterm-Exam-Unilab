@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="Css/reset.css">
     <link rel="stylesheet" href="Css/fonts.css">
     <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/responsive.css">
     <title>Home</title>
 </head>
 <body>
     <header class="header-bg">
-        <div class="header-flex">
+        <div class="header-flex container">
             <a class="logo" href="#">Zetta Hotels</a>
             <nav class="nav-bar">
                 <ul class="nav-ul">
                     <li class="nav-li">
-                        <a href="#">Home</a>
+                        <a class="active" href="#">Home</a>
                     </li>
                     <li class="nav-li">
                         <a href="#">Romms</a>
@@ -36,19 +37,24 @@
                     </li>
                 </ul>
             </nav>
+            <div id="burger-menu" class="burger-icon">
+                <i class="fas fa-bars"></i>
+            </div>	
         </div>
         <h1 class="title">About Us</h1>
     </header>
     <section class="section-1">
-        <div class="text-area">
-            <h6 class="section1-h6">About Us</h6>
-            <h1 class="section1-h1">Trust and quality are our atuus</h1> 
-            <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-            <p class="paragraph-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-            <button class="read-more">read more</button>
-        </div>
-        <div class="photo-area">
-            <img src="Images/Group 74.jpg" alt="photo">
+        <div class="two-divs">
+            <div class="text-area">
+                <h6 class="section1-h6">About Us</h6>
+                <h1 class="section1-h1">Trust and quality are our atuus</h1> 
+                <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                <p class="paragraph-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                <button class="read-more">read more</button>
+            </div>
+            <div class="photo-area">
+                <img class="photo" src="Images/Group 74.jpg" alt="photo">
+            </div>
         </div>
     </section>
     <section class="section-2">

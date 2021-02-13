@@ -1,0 +1,18 @@
+@media (max-width: 1024){
+    .header-bg{
+        width: 100%;
+    }  
+    .nav-ul{
+        max-width: 800px;
+    }
+    .section-1{
+        max-width: 800px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .photo{
+        max-width: 500px;
+        margin-right: 100px;
+    }
+}

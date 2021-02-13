@@ -2,14 +2,26 @@
 	display: flex;
 	justify-content: space-around;
 }
+.container{
+    max-width: 1089px;
+	width: 100%;
+	padding-left: 140px;
+}
 .header-bg {
 	background-image: url('../Images/banner-image.jpg');
-	width: 100%;
+	max-width: 100%;
 	height: 324px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative;
+}
+.active {
+	color: #5863F8;
+	font-size: 12px;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+    margin-left: 230px;
 }
 .nav-li{
     font-family: 'Poppins';
@@ -25,6 +37,9 @@
     font-family: 'Poppins';
     font-weight: bold;
     margin-top: 30px;
+}
+.burger-icon{
+    display: none;
 }
 .title{
     position: absolute;
@@ -42,6 +57,11 @@ a{
     font-weight: 800;
     font-style: normal;
     font-display: swap;
+}
+.two-divs{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .text-area{
     width: 444px;
